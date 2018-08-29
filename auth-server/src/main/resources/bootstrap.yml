@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: auth-server
+
+jwt:
+  secret: testingJWTAuthentication
+  expiration: 2
+  header: Bearer
+
+server:
+  port: 8081
